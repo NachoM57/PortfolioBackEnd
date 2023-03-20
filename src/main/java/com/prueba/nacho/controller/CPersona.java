@@ -3,11 +3,12 @@ package com.prueba.nacho.controller;
 
 import com.prueba.nacho.entity.Persona;
 import com.prueba.nacho.service.SPersona;
+import jakarta.transaction.Transactional;
 import java.util.List;
-import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,6 +19,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+
+
 
 @RestController
 @RequestMapping("persona")
@@ -32,13 +35,13 @@ public class CPersona {
     public List <Persona> verPersonas(){
     return persoServ.verPersonas();
     }
-    
+    @PreAuthorize("hasRole('ADMIN')")
      @PostMapping ("/nueva")
     public String agregarPersona  (@RequestBody Persona pers){ //se le pone un apodo a Persona
     persoServ.crearPersona(pers);
     return "La persona fue creada correctamente";
     }
-    
+    @PreAuthorize("hasRole('ADMIN')")
     @DeleteMapping ("/borrar/{id}")
     public String eliminarPersona(@PathVariable Long id){
         persoServ.borrarPersona(id);
@@ -53,7 +56,7 @@ public class CPersona {
     Persona pers = persoServ.getOne(id).get();
     return new ResponseEntity(pers, HttpStatus.OK);
     }
-
+@PreAuthorize("hasRole('ADMIN')")
      @PutMapping("/editar/{id}")
     public Persona EditarPersona(@PathVariable("id") Long id, @RequestBody Persona perso) {
 			Persona _pers = persoServ.buscarPersona(id);
