@@ -34,6 +34,7 @@ com\prueba\nacho\repository\IRBanner.class
 com\prueba\nacho\entity\Experiencias.class
 com\prueba\nacho\entity\HabilidadesBlandas.class
 com\prueba\nacho\entity\Proyectos.class
+.netbeans_automatic_build
 com\prueba\nacho\controller\CProyectos.class
 com\prueba\nacho\Security\jwt\JwtEntryPoint.class
 com\prueba\nacho\Security\Entity\UsuarioPrincipal.class
