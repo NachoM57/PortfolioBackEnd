@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("experiencia")
 @Transactional
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontend-argentina-progr-6523c.web.app")
 public class CExperiencias {
     @Autowired
     SExperiencias expeServ; //importamos el servicio con un apodo

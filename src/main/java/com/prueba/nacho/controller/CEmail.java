@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("email")
 @Transactional
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontend-argentina-progr-6523c.web.app")
 public class CEmail {
     @Autowired
     SEmail emailServ; //importamos el servicio con un apodo
