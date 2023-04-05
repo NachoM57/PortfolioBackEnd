@@ -21,6 +21,8 @@ public class Proyectos {
     private Long id;
    @NotNull //para que no este en blanco el campo
     private String imagen;
+      @NotNull //para que no este en blanco el campo
+    private String link;
     @NotNull //para que no este en blanco el campo
    private String titulo;
     @Lob
@@ -31,14 +33,16 @@ public class Proyectos {
     public Proyectos() {
     }
 
-    public Proyectos(Long id, String imagen, String titulo, String descripcion, String inicio, String fin) {
+    public Proyectos(Long id, String imagen, String titulo, String link, String descripcion, String inicio, String fin) {
         this.id = id;
         this.imagen = imagen;
         this.titulo = titulo;
+        this.link = link;
         this.descripcion = descripcion;
         this.inicio = inicio;
         this.fin = fin;
     }
+
 
 
     

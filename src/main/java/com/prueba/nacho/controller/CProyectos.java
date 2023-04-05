@@ -62,9 +62,11 @@ public class CProyectos {
 			Proyectos _proyec = proyecServ.buscarProyecto(id);
                         _proyec.setImagen(proy.getImagen());
 			_proyec.setTitulo(proy.getTitulo());
+                        _proyec.setLink(proy.getLink());
                         _proyec.setDescripcion(proy.getDescripcion());
                         _proyec.setInicio(proy.getInicio());
                         _proyec.setFin(proy.getFin());
+                        
                         			
                     
 			proyecServ.crearProyecto(_proyec);
