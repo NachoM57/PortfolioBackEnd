@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("banner")
 @Transactional
-@CrossOrigin(origins = "https://frontend-argentina-progr-6523c.web.app")
+@CrossOrigin(origins = {"https://frontend-argentina-progr-6523c.web.app", "http://localhost:4200"})
 public class CBanner {
     @Autowired
     SBanner bannerServ; //importamos el servicio con un apodo
