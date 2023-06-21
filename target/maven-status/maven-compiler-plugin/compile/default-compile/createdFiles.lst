@@ -10,6 +10,8 @@ com\prueba\nacho\NachoApplication.class
 com\prueba\nacho\repository\IRHabilidadesBlandas.class
 com\prueba\nacho\Security\Dto\NuevoUsuario.class
 com\prueba\nacho\repository\IREstudios.class
+com\prueba\nacho\controller\ContactController.class
+com\prueba\nacho\entity\ContactForm.class
 com\prueba\nacho\entity\Email.class
 com\prueba\nacho\Security\Dto\LoginUsuario.class
 com\prueba\nacho\controller\CPersona.class
@@ -24,6 +26,7 @@ com\prueba\nacho\controller\CEstudios.class
 com\prueba\nacho\repository\IREmail.class
 com\prueba\nacho\service\SBanner.class
 com\prueba\nacho\service\SEmail.class
+com\prueba\nacho\service\EmailService.class
 com\prueba\nacho\Security\Controller\Mensaje.class
 com\prueba\nacho\controller\CHabilidadesBlandas.class
 com\prueba\nacho\repository\IRProyectos.class

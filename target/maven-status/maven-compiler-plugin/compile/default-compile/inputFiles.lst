@@ -18,6 +18,7 @@ C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\Controller\Mensaje.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\Dto\LoginUsuario.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\repository\IREstudios.java
+C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\entity\ContactForm.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\entity\Persona.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\Entity\Rol.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\jwt\JwtEntryPoint.java
@@ -25,6 +26,7 @@ C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\entity\Estudios.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\Service\UsuarioService.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\service\SPersona.java
+C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\controller\ContactController.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\Entity\Usuario.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\entity\Proyectos.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\controller\CEstudios.java
@@ -37,6 +39,7 @@ C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\MainSecurity.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\Repository\iRolRepository.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\Service\RolService.java
+C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\service\EmailService.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\jwt\JwtTokenFilter.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\entity\HabilidadesDuras.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\controller\CHabilidadesBlandas.java
