@@ -3,17 +3,15 @@ C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\entity\Experiencias.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\repository\IRBanner.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\service\SProyectos.java
-C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\controller\CEmail.java
+C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\repository\ContactFormRepository.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\service\SExperiencias.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\jwt\JwtProvider.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\controller\CProyectos.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\controller\CBanner.java
-C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\repository\IREmail.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\service\SHabilidadesDuras.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\controller\CHabilidadesDuras.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\entity\HabilidadesBlandas.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\controller\CExperiencias.java
-C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\entity\Email.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\Repository\iUsuarioRepository.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\Controller\Mensaje.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\Dto\LoginUsuario.java
@@ -32,7 +30,6 @@ C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\controller\CEstudios.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\Controller\AuthController.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\Enums\RolNombre.java
-C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\service\SEmail.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\Service\UserDetailsImpl.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\entity\Banner.java
 C:\Users\nacho\OneDrive\Documentos\PROYECTO\nacho\src\main\java\com\prueba\nacho\Security\Dto\JwtDto.java
